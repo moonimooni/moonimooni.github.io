@@ -1,0 +1,19 @@
+.skills__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.skill__description {
+  margin-left: 20px;
+}
+
+.skill {
+  display: flex;
+  width: 380px;
+}

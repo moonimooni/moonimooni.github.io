@@ -1,0 +1,19 @@
+#banner {
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contact__icon {
+  margin-right: 20px;
+}
+
+.introduction__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

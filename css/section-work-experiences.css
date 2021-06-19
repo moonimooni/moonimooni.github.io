@@ -1,0 +1,9 @@
+.company__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description__detail {
+  margin-left: 20px;
+}
