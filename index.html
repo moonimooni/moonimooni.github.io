@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./css/media-query.css">
   <link rel="stylesheet" href="./css/section-intro.css">
   <link rel="stylesheet" href="./css/section-work-experiences.css">
   <link rel="stylesheet" href="./css/section-skills.css">
+  <link rel="stylesheet" href="./index.css">
   <title>안녕하세요 문희원입니다.</title>
   <link rel="icon" href="favicon.png" type="image/png">
 </head>
@@ -45,7 +45,7 @@
         <h1 class="title__context">📢 Introduction</h1>
         <div class="title__line"></div>
       </div>
-      <div class="introduction__content">
+      <div class="introduction__content" id="introduction__content">
         <ul class="content__contact">
           <li class="contact contact__email">
             <img class="icon contact__icon"
@@ -102,7 +102,7 @@
           <img class="icon skill__icon"
             src="https://ncube.net/wp-content/uploads/2013/03/cfile2.uf_.217E883850FE1BBA082B85.png" alt="">
           <p class="skill__description">
-            Javascript로 함수형 프로그래밍을 익혔습니다. <br />
+            Promise로 비동기 작업을 처리할 수 있습니다. <br />
             이벤트루프의 동작을 이해하고 있습니다. <br />
           </p>
         </div>
@@ -160,7 +160,7 @@
         <h1 class="title__context">💼 Work Experiences</h1>
         <div class="title__line"></div>
       </div>
-      <div class="company medistream">
+      <div id="medistream" class="company">
         <h2>Medistream</h2>
         <p>기간 : 2021/05 ~ 2021/06</p>
         <a href="https://github.com/medistream-team/quick-survey-js">👉🏻 Github</a>
@@ -169,7 +169,7 @@
         <div class="company__description">
           <img class="thumbnail independent-thumbnail"
             src="https://github.com/medistream-team/quick-survey-js/raw/develop/logo.png" alt="">
-          <span class="description__detail description__medistream">
+          <span id="description__medistream" class="description__detail">
             기업협업의 일환으로 한 달간 메디스트림이라는 회사에서 실무를 경험했습니다.<br />
             기술 스택과 repository 구조 정하기, 참고할 수 있는 API 리서치 등 기술 기획부터 npm package 배포까지 일련의 프로젝트 과정에 모두 참여했습니다. <br />
             현재 클라이언트 코드는 npm package에 올라가 있으며, API 코드 또한 git clone을 통해 빠르게 환경을 구축할 수 있도록 package.json 내부에 script를
